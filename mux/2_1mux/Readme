@@ -1,0 +1,5 @@
+This is 2x1MUX using Dataflow Modeling
+## Files
+mux2_1.v
+mux2_1_tb.v
+## Simulation using EDA playground
