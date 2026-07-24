@@ -1,1 +1,3 @@
-
+DISCRPTION FOR BINARY TO GREY
+I taken MSB as B1 and G1.
+LSB as B4 and G4
