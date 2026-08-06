@@ -1,0 +1,106 @@
+C:/intelFPGA/18.1/adder4bit_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/adder4bit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder4bit_tb
+
+Top level modules:
+	adder4bit_tb
+
+} {} {}} C:/intelFPGA/18.1/fulladder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/fulladder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder_tb
+
+Top level modules:
+	fulladder_tb
+
+} {} {}} C:/intelFPGA/18.1/adder4bit.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/adder4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder4bit
+
+Top level modules:
+	adder4bit
+
+} {} {}} C:/intelFPGA/18.1/fulladder.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} C:/intelFPGA/18.1/mux4_1_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mux4_1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4_1_tb
+
+Top level modules:
+	mux4_1_tb
+
+} {} {}} C:/intelFPGA/18.1/haldadder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/haldadder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module halfadder_tb
+
+Top level modules:
+	halfadder_tb
+
+} {} {}} C:/intelFPGA/18.1/halfadder.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/halfadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} C:/intelFPGA/18.1/fulladderstructural.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/fulladderstructural.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladderstructural
+
+Top level modules:
+	fulladderstructural
+
+} {} {}} C:/intelFPGA/18.1/greytobinary_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/greytobinary_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module greytobinary_tb
+
+Top level modules:
+	greytobinary_tb
+
+} {} {}} C:/intelFPGA/18.1/mux2_1.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mux2_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} C:/intelFPGA/18.1/binarytogrey_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/binarytogrey_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module binarytogery_tb
+
+Top level modules:
+	binarytogery_tb
+
+} {} {}} C:/intelFPGA/18.1/mux2_1_tn.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mux2_1_tn.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2_1_tb
+
+Top level modules:
+	mux2_1_tb
+
+} {} {}} C:/intelFPGA/18.1/mux4_1.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mux4_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}} C:/intelFPGA/18.1/greytobinary.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/greytobinary.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module greytobinary
+
+Top level modules:
+	greytobinary
+
+} {} {}} C:/intelFPGA/18.1/binarytogrey.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/binarytogrey.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module binarytogrey
+
+Top level modules:
+	binarytogrey
+
+} {} {}}
