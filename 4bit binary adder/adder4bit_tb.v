@@ -1,5 +1,4 @@
-// Code your testbench here
-// or browse Examples
+`timescale 1ns/1ps
 module adder4bit_tb;
   reg [4:1] A;
   reg [4:1] B;
@@ -11,8 +10,7 @@ wire  cout;
 adder4bit dut (A,B,cin,sum,cout);
 
 initial begin
-  $dumpfile("adder4bit.vcd");
-  $dumpvars(0, adder4bit_tb);
+ 
   
  A=4'b1011;
  B=4'b0011;
