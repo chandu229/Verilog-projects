@@ -4,7 +4,8 @@ reg a,b,cin;
 wire sum,carry;
 fulladder dut (a,b,cin,sum,carry);
  initial begin
-  
+   $dumpfile("fulladder.vcd");
+   $dumpvars(0,fulladder_tb);
   $display("a b cin | sum carry");
   $monitor("%b %b  %b  |  %b   %b",a,b,cin,sum,carry);
   a=0;b=0;cin=0; #10;
