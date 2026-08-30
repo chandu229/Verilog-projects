@@ -1,0 +1,10 @@
+the input I is 1
+ S | Y1 Y2
+ x | x x
+ 0 | 1 0
+ 1 | 0 1
+the input I is 0
+ S | Y1 Y2
+ 1 | 0 0
+ 0 | 0 0
+ 1 | 0 0
