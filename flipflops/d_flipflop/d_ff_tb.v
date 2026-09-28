@@ -5,7 +5,7 @@ module dff_tb;
   initial clk=0;
   always #10 clk = ~clk;
   initial begin
-    $monitor("D=%b Q=%b",D,Q);
+    $monitor("D=%b Q=%b clk=%b ",D,Q,clk);
     $dumpfile("dff.vcd");
     $dumpvars(0, dff_tb);
    
