@@ -1,7 +1,13 @@
+
 module down4bitasync_tb;
-  reg clk;
+  reg clk,reset;
   wire [3:0]q;
-  down4bitasync dut (clk,q);
+  down4bitasync dut (clk,reset,q);
+initial begin
+clk=0;
+reset=1;
+#2 reset = 0;
+end
   always #1 clk=~clk;
   initial begin
     $dumpfile("uasnc.vcd");
