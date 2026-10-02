@@ -1,7 +1,7 @@
 module jk_ff(J,K,clk,Q);
 input J,K,clk;
 output reg Q;
-always @(posedge clk);
+always @(posedge clk)
 begin 
 case ({J,K})
 2'b00: Q <= Q;
