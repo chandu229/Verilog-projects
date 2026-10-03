@@ -1,10 +1,12 @@
-module dff(D,clk,reset,Q);
-  input D,clk,reset;
+module dff(D,clk,reset,set,Q);
+  input D,clk,reset,set;
   output reg Q;
   always@(posedge clk)
 begin
-  if (reset)
+  if (reset==1)
   Q<=1'b0;
+else if (set==1)
+Q<=1'b1;
 else
 Q<=D;
 end
@@ -12,10 +14,10 @@ endmodule
 module ringcounter(clk,reset,q);
 input clk,reset;
 output  [3:0]q;
-initial
-[3:0]q<=4'b1000;
-dff ff1(q[3],clk,reset,q[0]);
-dff ff2(q[0],clk,reset,q[1]);
-dff ff3(q[1],clk,reset,q[2]);
-dff ff4(q[2],clk,reset,q[3]);
+
+
+dff ff1(q[3],clk,1'b0,reset,q[0]);
+dff ff2(q[0],clk,reset,1'b0,q[1]);
+dff ff3(q[1],clk,reset,1'b0,q[2]);
+dff ff4(q[2],clk,reset,1'b0,q[3]);
 endmodule
