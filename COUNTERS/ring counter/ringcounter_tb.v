@@ -1,6 +1,6 @@
 module ringcounter_tb;
 reg clk,reset;
-wire [0:3]q;
+wire [3:0]q;
 ringcounter dut(clk,reset,q);
 initial begin
 reset=1;
