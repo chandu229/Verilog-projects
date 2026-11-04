@@ -1,5 +1,4 @@
-// Code your testbench here
-// or browse Examples
+
 `timescale 1ns/1ps
 module decoder8x3_tb;
   reg A,B,C;
