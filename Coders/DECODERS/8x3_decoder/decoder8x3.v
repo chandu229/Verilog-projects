@@ -1,9 +1,10 @@
+
 module decoder8x3(A,B,C,I);
   input A,B,C;
-  output [7:0]I;
+  output reg [7:0]I;
   always @(*)
     begin
-      case [A,B,C]
+      case ({A,B,C})
         3'b000 : I = 8'b00000001;
         3'b001 : I = 8'b00000010;
         3'b010 : I = 8'b00000100;
